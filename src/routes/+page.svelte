@@ -11,20 +11,17 @@
 
 <section>
 	<h1>
-		<span class="welcome">
+		<span class="welcome border-black shadow-black">
 			<picture>
 				<source srcset={welcome} type="image/webp" />
 				<img src={welcome_fallback} alt="Welcome" />
 			</picture>
 		</span>
-
-		to your new<br />SvelteKit app
 	</h1>
-
-	<h2>
-		try editing <strong>src/routes/+page.svelte</strong>
-	</h2>
-
+	<p class="text-center text-xl">
+		The site is under construction.<br />
+		Hold your 🐴🐴
+	</p>
 	<Counter />
 </section>
 
